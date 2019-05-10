@@ -1,0 +1,1797 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>eceiro医采品牌官方网站</title>
+    <meta name="keywords" content="eceiro,医采,医采官网,医采品牌,医采魔盒,医采唇釉,医采口红,医采气垫,医采套盒,医采洁面乳,医采水乳,医采面膜,医采喷雾,医采原液,医采面霜,医采套装,医采发膜,医采身体乳" >
+    <meta name="description" content="医采|eceiro源于德国医美科学.自创立以来,秉承“心存善念,永存感恩”医美护肤的理念,致力打造成国内顶尖药妆护肤品牌.旗下产品:医采面膜,医采套盒,医采魔盒,医采唇釉,医采口红,医采气垫,医采洁面乳,医采水乳,医采喷雾,医采原液,医采面霜,医采套装,医采发膜,医采身体乳.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="baidu-site-verification" content="G3bJaezc1r" />
+    <link rel="shortcut icon" href=" ./favicon.ico" /> 
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/jsmodern.min.css">
+    <link rel="stylesheet" href="css/ft-carousel.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="/js/jsmodern.min.js"></script>
+    <script src="js/jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
+    <script src="js/ft-carousel.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/ft-carousels.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/ft-carouselss.min.js" type="text/javascript" charset="utf-8"></script>
+    <link href="css/searchMeme.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.searchMeme.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/phonenav.js"></script>
+    <script type="text/javascript">
+
+    function isPhone() {
+        var flag = false;
+        var userAgentInfo = navigator.userAgent;
+        var Agents = ["Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod"];
+        for (var i = 0; i < Agents.length; i++) {
+            if (userAgentInfo.indexOf(Agents[i]) > 0) {
+                flag = true;
+                break;
+            }
+        }
+        return flag;
+    }
+
+    var   scrflag = isPhone();
+    if (!scrflag){
+
+        $(function () {
+        
+        // 调用 jsModern 的 fullPage 组件方法
+        // 使用自定义导航按钮
+        // 进行沿 y 轴的横向滑动
+        jsModern.fullPage({
+              navigation: "#my-nav",
+              background: ['#FFF', '#FFF', '#FFF', '#FFF','#FFF', '#FFF', '#FFF', '#FFF'],
+              axis: "y",
+            });
+      })
+      // 产品介绍轮播
+      $(function() {
+        $('#carousel ul').carouFredSel({
+          prev: '#prev',
+          next: '#next',
+          pagination: "#pager",
+          scroll: 1000
+        });
+      });
+      $(function() {
+        $('#carousels ul').carouFredSel({
+          prev: '#prevsl',
+          next: '#nextsl',
+          pagination: "#pager",
+          scroll: 1000
+        });
+      }); 
+    }
+    
+    </script>
+    <script type="text/javascript">
+      $(function() {
+        $('#carouselss ul').carouFredSel({
+          prev: '#prevss',
+          next: '#nextss',
+          pagination: "#pager",
+          scroll: 1000
+        });
+      }); 
+    </script>
+  </head>
+  <body>
+
+  <section class="container">
+    <div>
+      <p class="p A">
+        <div class="banner">
+          <div class="example">
+            <div class="ft-carousel" id="carousel_1">
+              <ul class="carousel-inner">
+                <!-- <li class="carousel-item"><img src="./images/banner1.jpg" alt="eceiro医采源于德国医美科学.自创立以来,秉承“心存善念,永存感恩”医美护肤的理念,致力打造成国内顶尖药妆护肤品牌."></li>
+                <li class="carousel-item"><img src="./images/banner2.jpg" alt="医采肌活自律循环系列套盒|全新登场，再现肌肤原生之美"></li>
+                <li class="carousel-item"><img src="./images/banner3.jpg" alt="医采水感清透防护喷雾|一片喷雾抵四瓶，隔离·防晒·美白·保湿"></li>
+                <li class="carousel-item"><img src="./images/banner4.jpg" alt="eceiro 医采源于德国医美科学.自创立以来,秉承“心存善念,永存感恩”医美护肤的理念,致力打造成国内顶尖药妆护肤品牌."></li> -->
+                <li class="carousel-item"><video id="video" src="./video/sy.mp4" autoplay="autoplay" loop="loop" controls="controls"></video></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- 视频保存为文件 -->
+        <!-- <script type="text/javascript">
+          var hasLoaded = false;
+          var video = document.getElementById('video');
+          var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true); // 把中间的url换成你的视频链接
+            xhr.responseType = 'arraybuffer';
+            xhr.timeout = '6000';
+            xhr.send();
+            xhr.onload = function() {
+                if (xhr.status !== 200) {
+                    return;
+                }
+                // 转换成文件格式
+                var binaryData = new Uint8Array(xhr.response);
+                // 生成一个本地的url
+                var rUrl = window.URL.createObjectURL(new Blob([binaryData], {
+                    type: "video/mp4"
+                }));
+                // video赋值
+                video.src = rUrl;
+                // 视频播放
+                video.play();
+                // 加载成功标识
+                hasLoaded = true;
+            };
+            xhr.onerror = function () {
+                console.log("video request was wrong");
+            };
+        </script> -->
+        <!-- <script type="text/javascript">
+          $("#carousel_1").FtCarousel({
+            index: 0,
+            auto: true,
+            time: 3000,
+            indicators: false,
+            buttons: true
+          });
+        </script> -->
+      </p>
+    </div>
+      <div>
+        <p class="p B">
+        <div class="content1">
+                    <div class="c1-left">
+            <a href="./csrw.html"><img src="images/0bf17e585663b441527f194a0d856db8.png"></a>
+          </div>
+                              <div class="c1-right">
+            <a href="./csrw.html"><img src="images/f9603ece18acacdb9e2a9c17ec301acc.png"></a>
+          </div>
+                    <div class="c1-right">
+            <a href="./ppln.html"><img src="images/5a074201020a4e2d8d9c6abe204b6cad.png"></a>
+          </div>
+                  </div>  
+        </p>
+      </div>
+      <div>
+        <p class="p C">
+        <div class="content2">
+        <div class="c2-top">
+          <h3>FAVORITE SEL<b>E</b>CTION SERIES</h3>
+          <hr class="c2-hr1">
+          <p>挚爱臻选系列</p>
+          <hr class="c2-hr2">
+        </div>
+        <div class="c2-bottom">
+                    <span>
+            <a href="./wxqdbbs.html">
+            <img src="images/242f1ceb565e9757a1a62f1c3c4b839d.png" class="c2-img1" width="192px" height="219px" alt="医采水感清透防护喷雾|一片喷雾抵四瓶，隔离·防晒·美白·保湿" title="医采水感清透防护喷雾">
+            </a>
+            <p class="tz">瓷妆无瑕气垫BB霜</p>
+            <hr class="c2-hr" style="height:1px;border:none;border-top:1px dashed #d4d4d4; width: 170px;margin-left: 100px;padding:10px;">
+            <p>轻盈点亮自然裸妆</p>
+            <a href="./wxqdbbs.html" class="ckj">参考价:¥158</a>
+          </span>
+                              <span>
+            <a href="./jhth.html"><img src="images/df0bc8026194b05d837582da4bbca6e5.png" class="c2-img2" width="312px" height="273px" alt="医采肌活自律循环系列套盒|全新登场，再现肌肤原生之美" title="医采肌活自律循环系列套盒"></a>
+            <p class="tz">肌活自律循环套盒</p>
+            <hr class="c2-hr"  style="height:1px;border:none;border-top:1px dashed #d4d4d4; width: 170px;margin-left: 100px;padding:10px;">
+            <p>再现肌肤原生之美</p>
+            <a href="./jhth.html" class="ckj">参考价:¥368</a>
+          </span>
+                              <span>
+            <a href="./jhpw.html"><img src="images/13016641e5d3d21268725912e75c4436.png" class="c2-img3" width="233px" height="214px" alt="医采瓷妆无瑕气垫BB霜|轻盈点亮自然裸妆" title="医采瓷妆无瑕气垫BB霜"></a>
+            <p class="tz">水感清透防护喷雾</p>
+            <hr class="c2-hr"  style="height:1px;border:none;border-top:1px dashed #d4d4d4; width: 170px;margin-left: 100px;padding:10px;">
+            <p>隔离▪防晒▪美白▪保湿</p>
+            <a href="./jhpw.html" class="ckj">参考价:¥138</a>
+          </span>
+                  </div>
+      </div>
+        </p>
+      </div>
+      <div>
+        <p class="p D">
+        <div class="content3">
+          <div class="c2-top">
+            <h3>SERIES OF HOT S<b>E</b>LLING PRODUCTS</h3>
+            <hr class="c2-hr1">
+            <p>热销产品系列</p>
+            <hr class="c2-hr2">
+          </div>
+        </div>
+        <div id="wrapper">
+          <div id="carousel">
+            <ul>
+                          <li><a href=""><img src="images/62fc94adedf8598c807e94470634ad1d.png" alt=""></a></li>
+                          <li><a href=""><img src="images/08427be4e6240e84c6a659d245f76b4c.png" alt=""></a></li>
+                          <li><a href=""><img src="images/5721391921c7126f997c12b2f58b4d39.png" alt=""></a></li>
+                          <li><a href=""><img src="images/9299fb47528488d809d956788665ba4e.png" alt=""></a></li>
+                          <li><a href=""><img src="images/61b0d1e24392b82242d2768c8ff282f2.png" alt=""></a></li>
+                          <li><a href=""><img src="images/e4857e9760f5982ce7279910c36b8e31.png" alt=""></a></li>
+                          <li><a href=""><img src="images/abaf8947629377e9034f80a3cac30799.png" alt=""></a></li>
+                          <li><a href=""><img src="images/196e7504a7760f0db90d9cd6cfe0d6cd.png" alt=""></a></li>
+                          <li><a href=""><img src="images/34e2bc2d598dea089515940ad2b8a8ce.png" alt=""></a></li>
+                          <li><a href=""><img src="images/fbfca8904af2faeff7fd90e1ffe3de2b.png" alt=""></a></li>
+                          <li><a href=""><img src="images/7a9d6e612785124691b32e61259aa70e.png" alt=""></a></li>
+                          <li><a href=""><img src="images/b1d11eb0329d3ca774d55a7ef3bc89ed.png" alt=""></a></li>
+                          <li><a href=""><img src="images/d44c2b0f3a5cbd512feeac2d0b1b2801.png" alt=""></a></li>
+                          <li><a href=""><img src="images/c471b3e9a3e7aa6aa42416278b22a9c4.png" alt=""></a></li>
+                          <li><a href=""><img src="images/943169435ca33eba185d41ee8ba0e533.png" alt=""></a></li>
+                          <li><a href=""><img src="images/a2a2f4d801c355222cb849eabae26737.png" alt=""></a></li>
+                          <li><a href=""><img src="images/215d5c20fbd4c8ae4a55bf64ddb1b879.png" alt=""></a></li>
+                          <li><a href=""><img src="images/3dbcd2dfc327b32706a8b1b154e37358.png" alt="医采多肽修护日夜眼精华"></a></li>
+                          <li><a href=""><img src="images/015f94e8411febfee618adf5f870e957.png" alt=""></a></li>
+                        </ul>
+            <div class="clearfix"></div>
+            <a id="prev" class="prev" href="#"><img src="images/left.png"></a>
+            <a id="next" class="next" href="#"><img src="images/right.png"></a>
+            <!-- <div id="pager" class="pager"></div> -->
+          </div>
+        </div>
+        </p>
+      </div>
+      <div>
+        <p class="p E">
+        <div class="content4">
+                  <div class="c4-left">
+          <iframe class="video_iframe" style=" z-index:1;height: 520px;" src="https://v.qq.com/txp/iframe/player.html?vid=x08264t0f6h" allowFullScreen="true" quality="high" width="100%" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></iframe>
+            
+          </div>
+          <div class="c4-right">
+            <div class="c4-top">
+              <img src="/d/file/p/2019/01-14/dec8b80288fbda5d36e7f107958a5096.jpg" alt="医采股东荣耀专享环球之旅—2018医采（中国）品牌美国塞班岛" title="2018医采（中国）品牌美国塞班岛，医采股东荣耀专享之旅">
+            </div>
+            <div class="c4-bottom">
+              <hr>
+              <p class="c4p1">2018医采(中国)品牌年度盛典</p>
+              <P class="c4p2">Stars beyond·Shine glory</P>
+              <P class="c4p3">12月28日，一场以“星飞越·耀非凡”为主题2018医采(中国)品牌全球领袖年度盛会&颁奖典礼在南京国际博览中心璀璨举行。当天，群星璀璨、名人荟萃，来自全国上万位杰出代理与百余家主流媒体齐临现场共襄盛举，为所有参会人员打造了一场美妆行业的饕餮盛宴!
+</P>
+              <a href="http://e.gmw.cn/2019-01/02/content_32286258.htm">了解更多></a>
+            </div>
+          </div>
+                </div>
+        </p>
+      </div>
+      <div>
+        <p class="p F">
+        <div class="content5" id="wrapper  c5c5">
+          <div id="carousels">
+            <ul>
+                            <li>
+                <div class="c5-left">
+                  <img src="/d/file/p/2018/11-15/b3a0a3130a7fdc0a7ade265ba84e9a4a.jpg">
+                  <!-- <img src="/d/file/p/2018/11-15/179a1ebaf846fadee96c3642b382a871.jpg" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">付喜荣</p></tr>
+                    <tr><p class="sbfh">卓越联盟创始人      越战越勇 冠军</p></tr>
+                  </table>
+                <!-- <b>000 </b> -->
+                <hr>
+                <p class="ljfh">80后宝妈付喜荣，从事微商2年，而加入医采短短两月就成为了百万官方合伙人，这当然离不开她的机智与能干，也进一步验证了跟对好品牌的重要性。雨菲多次上榜越战越勇，这次更是奋勇前进冲入第一名，成为所有人的榜样！</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="/d/file/p/2018/11-15/8d201de37a36581c445e7019ca5a3c0b.jpg">
+                  <!-- <img src="/d/file/p/2018/11-15/10a269f062cd6d43810c9752ab1dae62.jpg" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">孙荣霞</p></tr>
+                    <tr><p class="sbfh">群英国际创始人  越战越勇 亚军</p></tr>
+                  </table>
+                <!-- <b>00</b> -->
+                <hr>
+                <p class="ljfh">来自内蒙古的单亲妈妈孙荣霞，更多人亲切的称她为沐夕，加入医采短短几个月便突出重围成为群英国际创始人，医采百万官方，从负债累累到名富双收，有能力给到孩子更好的生活！沐夕用她的不懈努力再登越战越勇第2名！</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="/d/file/p/2018/11-15/0c7e88d531724f59ec1b812d6e9ac637.jpg">
+                  <!-- <img src="/d/file/p/2018/11-15/39ab5895eeacdc1a6a13cb5ab30a15dd.png" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">陈雅茹</p></tr>
+                    <tr><p class="sbfh">战狼天团创始人   越战越勇 季军</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">战狼天团创始人   越战越勇 季军</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="/d/file/p/2018/11-15/0aefa5f862a99be20463e2cf3fb37103.jpg">
+                  <!-- <img src="/d/file/p/2018/11-15/378667ca89907da7ec6eeb2d99c35f0f.png" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">邢瑶</p></tr>
+                    <tr><p class="sbfh">黑马天团百万官方    越战越勇 五强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">谁说女子不如男？作为女性，你刚强、自信、坚韧不拔，稳居越战越勇前五！作为黑马天团的掌舵者，你竭心尽力，全力而为，帮助团队实现财富增值！一步一个脚印用实力向所有人证明了自己和团队的实力!</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="/d/file/p/2018/11-15/d89166d61b256ce7312801f27307e405.jpg">
+                  <!-- <img src="/d/file/p/2018/11-15/979afed2a9d082c59a7944b8a80e50ac.png" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">胡思思</p></tr>
+                    <tr><p class="sbfh">飞越联盟百万官方    越战越勇 五强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">90后宝妈胡思思，见识到医采网红打造的实力，毅然决定转让自家餐饮店，带领老公全职干医采，如今已是飞越联盟创始人、网红军团专家，坐拥几十万粉丝，努力没有辜负于她，奋勇前进冲入越战越勇第5名！</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="/d/file/p/2018/11-15/c6242dfe28eed731d9012abd9c6a9699.jpg">
+                  <!-- <img src="/d/file/p/2018/11-15/79672c84302aab374160546408b3518b.png" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">丁晓楠</p></tr>
+                    <tr><p class="sbfh">展梦国际百万官方    越战越勇 十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">展梦国际创始人丁晓楠，大家亲切的称她为雪糕，年度盛典作为医采百万官方合伙人优秀代表受到央视水均益老师的采访，频获赞赏，同时她还是网红打造执行董事、坐拥百万网红粉丝，多次上榜越战越勇，斩获本月第6名。</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="/d/file/p/2018/11-15/76bbcf42985caa2eb0e53f8a9604f48b.jpg">
+                  <!-- <img src="/d/file/p/2018/11-15/c0ac7220b67a59b07c811a40cc831d0e.png" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">李妍彦</p></tr>
+                    <tr><p class="sbfh">卓越联盟创始人    越战越勇 十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">李妍彦，一个从山村出来的小姑娘，2015年年初开始接触医采，然后就开始了自己的逆袭人生，带领无数人有志青年创业成功，现在的她是医采卓越联盟创始人、网红打造理事、资源整合平台讲师，实力斩获本月第7名。</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="/d/file/p/2018/11-15/cfa97d2b6d0daf11c9e0a7e935501d31.jpg">
+                  <!-- <img src="/d/file/p/2018/11-15/f123d0a699b6139dfa7464758a93de89.jpg" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">撒正花</p></tr>
+                    <tr><p class="sbfh">卓越联盟创始人    越战越勇 十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">小撒是一名80后宝妈，在没有遇到医采之前是个体户，她具有敏锐洞察力、决策果断，看准医采品牌市场的巨大力量后果断转型医采代理，全心做医采！带领来自五湖四海的姐妹们实现名富双收，凭借实力冲入本月越战越勇10强。</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="/d/file/p/2018/11-15/4e02570bd452314f4a1acb538c43d6dc.jpg">
+                  <!-- <img src="/d/file/p/2018/11-15/92f63422578c881477b6c51bbab42b0d.png" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">黄雨平</p></tr>
+                    <tr><p class="sbfh">飞越联盟创始人    越战越勇 十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">全职宝妈黄雨平，厌倦了放低姿态与老公拿钱的日子，转身遇见医采逆袭大咖，从一个只知道烧菜做饭的全职宝妈逆袭带领上万人团队的老大，从伸手要钱，到如今实现财富自由并带领团队都赚到了钱，斩获本月第9名。</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="/d/file/p/2018/11-15/0e49757360c7805e7d659546fc23385a.jpg">
+                  <!-- <img src="/d/file/p/2018/11-15/7550d46a4754f4e71718b517def89356.jpg" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">李雪</p></tr>
+                    <tr><p class="sbfh">梦想联盟创始人    越战越勇 十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">80后宝妈李雪，从一个摆地摊卖面筋到医采梦想联盟创始人，从孤身一人到拥有三万人团队，一路培养了许多优秀的官方合伙人，也是上榜越战越勇次数最多的医采风云人物，成为很多人的楷模！</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="/d/file/p/2018/11-15/2b0919907604d978a3d85ba8a37f3267.jpg">
+                  <!-- <img src="/d/file/p/2018/11-15/d719b904acd1c4b9e9a7fab006d2a74b.jpg" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">罗栩</p></tr>
+                    <tr><p class="sbfh">飞越联盟创始人 越战越勇 二十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">罗栩，不羁的80后，不愿随波逐流做稳定小白领，而是毅然的选择追随医采,走上创业的道路，从默默无闻的小白领摇身一变成为飞越联盟创建人，培育了很多优秀官方合伙人，多次上榜越战越勇，是医采代理界知名人士。</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="images/9a8a927a1e17661778c5c6a7ee0ebfd1.jpg">
+                  <!-- <img src="images/6bbcf74da6699d16790bd3998b58f1dc.jpg" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">王凤 </p></tr>
+                    <tr><p class="sbfh">战狼天团百万官方 越战越勇 二十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">在做医采之前王凤是一名打工妹，后来辞掉了工作决心做医采，在公司的扶持以及她自己的努力下很快就做了医采百万官方。现在，她带领着万人团队再创佳绩，誓要让更多的人在医采逆袭自己的人生！</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="images/7af4b7d66aed879a913ccf9e1aed3d7b.jpg">
+                  <!-- <img src="" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">唐雁</p></tr>
+                    <tr><p class="sbfh">星空联盟创始人 越战越勇 二十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">来自烟台农村的80后唐雁，在外打工数载没有成绩，加入医采参与网红打造短短几个月便升入百万官方，创建了星空联盟团队。从最初单打独斗走到今天拥有的上万人团队，唐雁最感谢的就是当初把握了医采这个机遇！</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="images/dcdaa8654ef269be7171708bd1a6a0cf.jpg">
+                  <!-- <img src="" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">刘程程</p></tr>
+                    <tr><p class="sbfh">众星国际创始人 越战越勇 二十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">85后刘程程，2015年看准商机义无反顾加入了医采，“没有不成功的事业，只有不努力的自己”是她的人生格言。医采和她的努力没有辜负于她，从开始的打工小妹，逆袭成为众星国际创始人，带领团队赚的盆满钵满！</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="images/162b3f4f13b6d8307f45d16fc3e91c5a.jpg">
+                  <!-- <img src="" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">杨慧慧</p></tr>
+                    <tr><p class="sbfh">战狼天团创始人 越战越勇 二十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">杨慧慧之前在北京开实体店，在雅茹大大的推荐下她加入了医采。通过努力现在杨慧慧是医采公司网红，百万官方，手下的团队人数也越来越多。收获了自己的豪车和房子，这次更是上榜越战越勇二十强！</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="images/2fd81af1812654c6a451da3d48503d14.jpg">
+                  <!-- <img src="" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">胡晓静</p></tr>
+                    <tr><p class="sbfh">飞越联盟创始人 越战越勇 二十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">胡晓静是一位全职宝妈，带小孩的同时想做点兼职补贴家用，在朋友的介绍下加入了医采。 一步步从小代理到医采百万官方，豪车、别墅都有了，也有了自己的团队和代理商们，现在她不仅收获了金钱自由，人生自由，同时也活出了自己的价值！</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="images/8a5434c4e6d999da413b9516f9ceb322.jpg">
+                  <!-- <img src="" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">彭美清</p></tr>
+                    <tr><p class="sbfh">天使联盟创始人 越战越勇 二十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">80后彭美清曾毅然放弃淘宝事业，加入医采创业，短短一年多时间，成为天使联盟的创始人，坐拥3万人的庞大团队。从一个买东西要看价格的女人，华丽转身成身价千万的白富美，这次更是带领天使联盟斩获20强。</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="images/b92e51c890527cb0040add17dc34cff8.jpg">
+                  <!-- <img src="" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">李小宛</p></tr>
+                    <tr><p class="sbfh">奇迹联盟创始人 越战越勇 二十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">李小宛在加入医采前是传媒公司的老板，手底下五六十人，自己还开直播，是个小网红。加入医采之后，她更是成功了，直播坐拥百万粉丝，成为高级销货网红，管理着万人团队，是医采让她的人生更加精彩辉煌！</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="images/228f5e554bad4c78a6bcdc02f0a1f5cc.jpg">
+                  <!-- <img src="" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">康瑞杰</p></tr>
+                    <tr><p class="sbfh">卓越联盟创始人 越战越勇 二十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">康瑞杰看好医采不顾家人反对加入了医采，大半年的时间从一个微商小白到逆袭成为百万官方，家人亲戚也从以前的不支持，到现在的刮目相看。不仅收获了财富，她更在医采证明了自己的价值！</p>
+                <hr>
+                </div>
+              </li>
+                            <li>
+                <div class="c5-left">
+                  <img src="images/3447012d6606ab6e163690db16e7aa89.jpg">
+                  <!-- <img src="" class="c5_1"> -->
+                  <!-- <img src="./images/ljgd.jpg" class="c5_2"> -->
+                </div>
+                <div class="c5-right">
+                  <hr class="c5hr">
+                  <table>
+                    <tr><p class="name">马针</p></tr>
+                    <tr><p class="sbfh">汇金国际百万官方 越战越勇 二十强</p></tr>
+                  </table>
+                <!-- <b></b> -->
+                <hr>
+                <p class="ljfh">马姐，从一个100块钱的化妆品都用不起的农村妈妈，逆袭成为网络红人，坐拥30多万粉丝，更在短短的时间内创立了汇金国际。如今的她，月销量突破上百万，团队成员不断攀升，在当地名声大振，成为名副其实的创业女王。</p>
+                <hr>
+                </div>
+              </li>
+                          </ul>
+            <div class="clearfix"></div>
+            <a id="prevsl" class="zuo" href="#"><img src="images/left.png"></a>
+            <a id="nextsl" class="you" href="#"><img src="images/right.png"></a>
+          </div>
+        </div>
+        </p>
+      </div>
+      <div>
+        <p class="p G">
+          <div class="content6">
+          <div class="c2-top">
+            <h3>BRAND DYNAMICS</h3>
+            <hr class="c6-hr1">
+            <p>品牌动态</p>
+            <hr class="c6-hr2">
+          </div>
+          <div class="c6-bottom">
+                      <a href="http://ln.qq.com/a/20190102/007251.htm" target=" _blank" class="c-b-1" rel="nofollow">
+              <span>
+                <img src="/d/file/p/2019/01-02/2a465b01691d6188fd4104898920cd38.jpg" width="372px" height="246px">
+                <p class="c6h5">万人齐聚南京开启2018医采（中国）品牌年度盛典</p>
+                <p style="font-size: 12px;line-height: 20px;">TIME:2018/04/06</p>
+                <P>12月28日，一场以“星飞越·耀非凡”为主题2018医采（中国）品牌全球领袖年度盛会&颁奖典礼在南京国际博览中心璀璨举行。</P>
+              </span>
+            </a>
+                      <a href="http://js.ifeng.com/a/20190110/7155290_0.shtml" target=" _blank" class="c-b-1" rel="nofollow">
+              <span>
+                <img src="/d/file/p/2019/01-10/fe1cbf6de716da66e8aa0c0fd128ff2e.jpg" width="372px" height="246px">
+                <p class="c6h5">医采(中国)品牌第11站·股东专享之畅游迪拜</p>
+                <p style="font-size: 12px;line-height: 20px;">TIME:2018-05-13</p>
+                <P>2019年1月6日—10日，新年之初，医采（中国）品牌的全球股东们迎来了为期5天4夜的第十一次环球之旅，而这次的目</P>
+              </span>
+            </a>
+                      <a href="http://hebei.sina.com.cn/edu/zh/2018-12-14/detail-ihqackac7905476.shtml" target=" _blank" class="c-b-1" rel="nofollow">
+              <span>
+                <img src="/d/file/p/2018/12-21/eaab2fc2680b0498c08986761bafe9fa.jpg" width="372px" height="246px">
+                <p class="c6h5">医采公益行，再访山东港湾学校，让爱持续</p>
+                <p style="font-size: 12px;line-height: 20px;">TIME:2018-01-31</p>
+                <P>　　2018年12月9日，时隔一年医采公益人满载着爱再次回到了这里，来履行当初对孩子们的那份承诺：“你们要积极乐观的面对生</P>
+              </span>
+            </a>
+          <!--            <a href="###" class="c-b-1">
+              <span>
+                <img src="./images/news.jpg">
+                <h5>这里是新闻标题</h5>
+                <p style="font-size: 12px;">TIME:2017/12/14</p>
+                <P>这里是新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容新闻内容</P>
+              </span>
+              </a> -->
+          </div>
+          <div class="ljgd">
+            <a href='/xinwendongtai/' class="ljgda">了解更多></a>
+          </div>
+        </div>
+        <div id="foot">
+          <div class="f-top">
+            <div class="f-nav">
+              <ul>
+                <li><a href="pphz.html">人才招聘</a></li>
+                <li><a href="khfw.html">联系我们</a></li>
+                <li><a href="fwcx.html">防伪查询</a></li>
+                <li><a href="khfw.html">客户服务</a></li>
+                <li class="jglogo">
+                  <a> 
+                  <p>官方微信</p>
+                  <div class="dbwx">
+                    <img src="./images/ycewm.jpg" width="150px">
+                  </div>
+                  </a>
+                </li>
+                <li style="border: none; margin-right: 40px;" class="wb">
+                  <a href='https://weibo.com/p/1006065062440955/home?from=page_100606&mod=TAB&is_hot=1#place' target=" _blank" rel="nofollow">
+                  <p>官方微博</p>
+                  <!-- <div class="dbwb">
+                    <img src="./images/xlewm.jpg" width="150px">
+                  </div> -->
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="f-number">
+              <p>全国免费咨询客户服务热线:   400-012-8989 （周一到周日 早上 9:00 - 下午18:00）</p>
+            </div>
+          </div>
+          <div class="f-bottom">
+            <p>Copyright(c)  2019 广州优研生物科技有限公司</p>
+            <p><a href="http://www.miitbeian.gov.cn" style="float: none;" rel="nofollow">粤ICP备16028853号-2</a></p>
+            <p style="position: absolute; bottom: 0; right: 40%;"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273223859'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1273223859%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></p>
+            
+          </div>
+          </div>
+        </p>
+      </div>
+      </section>
+      <div id="my-nav">
+        <b>心存善念·永存感恩</b>
+        <b>品牌故事</b>
+        <b>挚爱臻选系列</b>
+        <b>热销产品系列</b>
+        <b>品牌盛典</b>
+        <b>本周推荐</b>
+        <b>品牌动态</b>
+      </div>
+      <div id='header' class="pc-head">
+  <div class='top'>
+    <div class='t-left'>
+      <a href='###'><p>© THE FINAL RIGHT OF INTERPRETATION IS OWNED BY THE  YOUYAN GRO</p></a>
+    </div>
+    <div class='t-right'>
+      <a href='###'>
+      <div class='wxlogo'>
+        <img src='images/wxlogo.png'>
+        <P>官方微信</P>
+        <div class="ycewm">
+          <img src="./images/ycewm.jpg" width="150px">
+        </div>
+      </div>
+      </a>
+      <a href='https://weibo.com/p/1006065062440955/home?from=page_100606&mod=TAB&is_hot=1#place' target=" _blank" rel="nofollow">
+      <div class='wxlogo xllogo'>
+        <img src='images/xllogo.png'>
+        <P>官方微博</P>
+        <!-- <div class="xlewm">
+          <img src="./images/xlewm.jpg" width="140px">
+        </div> -->
+      </div>
+      </a>
+            <!-- 这里是搜索 -->
+      <!-- <a href='###'>
+
+      <div class='wxlogo ssl'>
+        <input type="text" id="search-orange" />
+      </div>
+      </a> -->
+    </div>
+  </div>
+  <div class='column'>
+    <div class='logo'>
+      <a href='http://www.eceiro.com'>
+        <img src='images/logo.png' alt="eceiro 医采品牌官方网站" title="eceiro 医采品牌官方网站">
+      </a>
+    </div>
+    <div class='nav'>
+      <ul>
+        <li>
+          <a href='http://www.eceiro.com' target='_top'>品牌首页</a>
+        </li>
+        <li>
+          <a href='javascript:void(0).html' target='_top'>明星产品</a>
+            <ul class='e_nav'>
+              <li class='e1'>
+                <a href='javascript:void(0)' target='_top'>彩妆</a>
+                  <ul>
+                    <li><a href='pdlczmh.html'  target='_top'>潘多拉彩妆魔盒</a></li>
+                    <li><a href='mddskh.html'  target='_top'>摩登都市魅色口红</a></li>
+                    <li><a href='ssmf.html'  target='_top'>轻雾丝盈三色蜜粉</a></li>
+                  </ul>
+              </li>
+              <li class='e2'>
+                <a href='javascript:void(0)' target='_top'>护肤</a>
+                  <ul>
+                    <li class="hfhz"> 
+                      <a href='jhth.html'  target='_top'>肌活自律循环套盒></a>
+                        <ul>
+                          <li><a href="jhjmr.html"  target='_top'>肌活净透保湿洁面乳</a></li>
+                          <li><a href="jhjks.html"  target='_top'>肌活自律循环健康水</a></li>
+                          <li><a href="jhxfr.html"  target='_top'>肌活自律循环修护乳</a></li>
+                          <li><a href="jhzys.html"  target='_top'>肌活自律循环滋养霜</a></li>
+                        </ul>
+                    </li>
+                    <li class="hfhz"> 
+                      <a href='sghfth.html'  target='_top'>多肽奢宠水光护肤套盒></a>
+                        <ul>
+                          <li><a href="jyjmr.html"  target='_top'>多肽焕采净颜洁面乳</a></li>
+                          <li><a href="xhsjs.html"  target='_top'>多肽润养修护生机水</a></li>
+                          <li><a href="xhsgr.html"  target='_top'>多肽活颜修护水光乳</a></li>
+                          <li><a href="ryyjh.html"  target='_top'>多肽修护日夜眼精华</a></li>
+                        </ul>
+                    </li>
+                    <li><a href='wxqdbbs.html' target='_top'>瓷妆无瑕气垫BB霜</a></li>
+                    <li><a href='mjxhcsmm.html'  target='_top'>多肽密集修护蚕丝面膜</a></li>
+                    <li><a href='swxwqcmm.html'  target='_top'>多肽生物纤维青春面膜</a></li>
+                    <li><a href="jhpw.html"  target='_top'>水感清透防护喷雾</a></li>
+                    <li><a href='shbspw.html'  target='_top'>多效舒缓保湿喷雾</a></li>
+                    <li><a href='qcdgy.html'  target='_top'>多肽青春定格原液</a></li>
+                    <li><a href='xfsgmx.html'  target='_top'>多肽修复水光面霜</a></li>
+                    <li><a href='xjhyglfhx.html'  target='_top'>新肌焕颜隔离防护霜</a></li>
+                  </ul>
+              </li>
+              <li class='e3'>
+                <a href='javascript:void(0)' target='_top'>洗护</a>
+                  <ul>
+
+                    <li><a href='rhhfm.html'  target='_top'>奢美丝滑养护发膜</a></li>
+                    <li><a href="jhstr.html"  target='_top'>悦享美肌香氛身体乳</a></li>
+                    <!-- 手工皂隐藏 -->
+                    <li><a href='knsgz.html'  target='_top'>男士酷能醒肤手工皂</a></li>
+                    <li><a href="mcsgz.html"  target='_top'>男士抹茶控油手工皂</a></li>
+                    <li><a href="sgjtsyxzs.html"  target='_top'>水感净透舒颜卸妆水</a></li>
+                  </ul>
+              </li>
+            </ul>
+        </li>
+        <li>
+          <a href='javascript:void(0)' target='_top'>德国美肤</a>
+            <ul class='e_nav'>
+              <li><a href='qsjksl.html' target='_top'>轻熟肌抗衰老</a></li>
+              <li><a href='dghfzx.html' target='_top'>德国护肤哲学</a></li>
+            </ul>
+        </li>
+        <li>
+          <a href='javascript:void(0)' target='_top'>探索医采</a>
+            <ul class='e_nav'>
+              <li><a href='ycsys.html' target='_top'>医采实验室</a></li>
+              <li><a href='ppgc.html' target='_top'>品牌工厂</a></li>
+            </ul>
+        </li>
+        <li>
+          <a href='javascript:void(0)' target='_top'>品牌故事</a>
+            <ul class='e_nav'>
+              <li><a href='csrw.html' target='_top'>创始人物</a></li>
+              <li><a href='ppln.html' target='_top'>品牌理念</a></li>
+            </ul>
+        </li>
+        <li>
+          <a href='javascript:void(0)' target='_top'>媒体报道</a>
+            <ul class='e_nav'>
+              <li><a href='/xinwendongtai/' target='_top'>品牌动态</a></li>
+            </ul>
+        </li>
+        <li>
+          <a href='javascript:void(0)' target='_top'>加入我们</a>
+            <ul class='e_nav'>
+              <li><a href='pphz.html' target='_top'>品牌合作</a></li>
+              <li><a href='jxcx.html' target='_top'>经销查询</a></li>
+            </ul>
+        </li>
+        <li>
+          <a href='javascript:void(0)' target='_top'>售后服务</a>
+            <ul class='e_nav'>
+              <li><a href='fwcx.html' target='_top'>防伪查询</a></li>
+              <li><a href='khfw.html' target='_top'>客户服务</a></li>
+            </ul>
+        </li>
+        <li>
+          <a href='javascript:void(0)' target='_top'>关于我们</a>
+            <ul class='e_nav'>
+              <li><a href='jtjj.html' target='_top'>集团简介</a></li>
+              <li><a href='jtwh.html' target='_top'>集团文化</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+    <div id="p-wrap">
+    <div class="p-head middle">
+      <div class="dbtb">
+        <div class="navlogo">
+          <!-- <script type="text/javascript" src="./js/nav.js"></script> -->
+          <!-- <div class="middle p-head"> -->
+      <!-- 隐藏菜单 -->
+      <div class="hidLeftMenu">
+        <img class="openMenu" src="images/phone/nav.png"/>
+      </div>
+      <!-- 隐藏菜单结束 -->
+      <!-- 菜单-开始 -->
+      <div class="leftMenu">
+        <div class="topMenu">
+      <!--    <img class="banshi" src="img/banshidating.png" /> -->
+          <p class="menuTitle"><a href="http://www.eceiro.com">主页</a></p>
+          <img class="changeMenu" src="http://www.eceiro.com/images/phone/house.png" id="hidIcon" width="20px" />
+        </div>
+        <div class="menu_list">
+          <ul>
+            <li class="lis">
+              <p class="fuMenu">明星产品</p>
+              <img class="xiala" src="http://www.eceiro.com/images/phone/open.png">
+              <img class="xiala2" src="http://www.eceiro.com/images/phone/off.png"/>
+              <div class="div1">
+                <ul>
+                <li class="lis">
+                <p class="fuMenu2">彩妆</p>
+                <img class="xiala" src="http://www.eceiro.com/images/phone/open2.png">
+                <img class="xiala2" src="http://www.eceiro.com/images/phone/off2.png"/>
+                  <div class="div1">
+                    <p class="zcd" id="zcd9">
+                      <a href="http://www.eceiro.com/pdlczmh.html">潘多拉彩妆魔盒</a>
+                    </p>
+                    
+                    <!-- <p class="zcd" id="zcd10">
+                      <a href="http://www.eceiro.com/lgycsm.html">流光耀彩水蜜唇釉</a>
+                    </p> -->
+                    <!-- <p class="zcd" id="zcd10">
+                      <a href="http://www.eceiro.com/ljhcmr.html">琉金幻彩魅人口红</a>
+                    </p> -->
+                    <p class="zcd" id="zcd10">
+                      <a href="http://www.eceiro.com/mddskh.html">摩登都市魅色口红</a>
+                    </p>
+                    <p class="zcd" id="zcd10">
+                      <a href="/ssmf.html">轻雾丝盈三色蜜粉</a>
+                    </p>
+                  </div>
+                </li>
+                </ul>
+                <ul>
+                <li class="lis">
+                <p class="fuMenu2">护肤</p>
+                  <img class="xiala" src="http://www.eceiro.com/images/phone/open2.png">
+                  <img class="xiala2" src="http://www.eceiro.com/images/phone/off2.png"/>
+                  <div class="div1">
+                    <p class="zcd" id="zcd9">
+                    <a href="http://www.eceiro.com/jhth.html">肌活自律循环套盒</a>
+
+                    </p>
+                    <p class="zcd" id="zcd10">
+                    <a href="http://www.eceiro.com/sghfth.html">多肽奢宠水光护肤套盒</a>
+
+                    </p>
+                    <p class="zcd" id="zcd10">
+                    <a href="http://www.eceiro.com/wxqdbbs.html">瓷妆无暇气垫BB霜</a>
+
+                    </p>
+                    <p class="zcd" id="zcd10">
+                    <a href="http://www.eceiro.com/mjxhcsmm.html">多肽密集修护蚕丝面膜</a>
+
+                    </p>
+                    <p class="zcd" id="zcd10">
+                    <a href="http://www.eceiro.com/swxwqcmm.html">多肽生物纤维青春面膜</a>
+
+                    </p>
+                    <p class="zcd" id="zcd10">
+                    <a href="http://www.eceiro.com/jhpw.html">水感清透防护喷雾</a>
+
+                    </p>
+                    <p class="zcd" id="zcd10">
+                    <a href="http://www.eceiro.com/shbspw.html">多效舒缓保湿喷雾</a>
+
+                    </p>
+                    <p class="zcd" id="zcd10">
+                    <a href="http://www.eceiro.com/qcdgy.html">多肽青春定格原液</a>
+
+                    </p>
+                    <p class="zcd" id="zcd10">
+                    <a href="http://www.eceiro.com/xfsgmx.html">多肽修复水光面霜</a>
+
+                    </p>
+                    <p class="zcd" id="zcd10">
+                    <a href="http://www.eceiro.com/xjhyglfhx.html">新肌焕颜隔离防护霜</a>
+
+                    </p>
+                  </div>
+                </li>
+                </ul>
+                <ul>
+                <li class="lis">
+                <p class="fuMenu2">洗护</p>
+                  <img class="xiala" src="http://www.eceiro.com/images/phone/open2.png">
+                  <img class="xiala2" src="http://www.eceiro.com/images/phone/off2.png"/>
+                  <div class="div1">
+                    <p class="zcd" id="zcd9">
+                      <a href="http://www.eceiro.com/rhhfm.html">奢美丝滑养护发膜</a>
+                    </p>
+                    <p class="zcd" id="zcd10">
+                      <a href="http://www.eceiro.com/jhstr.html">悦享美肌香氛身体乳</a>
+                    </p>
+                    <!-- 手工皂隐藏 -->
+                    <p class="zcd" id="zcd9">
+                      <a href="http://www.eceiro.com/knsgz.html">男士酷能醒肤手工皂</a>
+                    </p>
+                    <p class="zcd" id="zcd10">
+                      <a href="http://www.eceiro.com/mcsgz.html">男士抹茶控油手工皂</a>
+                    </p>
+                    <p class="zcd" id="zcd10">
+                      <a href="http://www.eceiro.com/sgjtsyxzs.html">水感净透舒颜卸妆水</a>
+                    </p>
+                  </div>
+                
+                </li>
+                </ul>
+              </div>
+            </li>
+            <li class="lis">
+              <p class="fuMenu">德国美肤</p>
+              <img class="xiala" src="http://www.eceiro.com/images/phone/open.png" />
+              <img class="xiala2" src="http://www.eceiro.com/images/phone/off.png"/>
+              <div class="div1">
+                <p class="zcd" id="zcd9">
+                  <a href="http://www.eceiro.com/qsjksl.html">轻熟肌抗初老</a>
+                </p>
+                 <p class="zcd" id="zcd10">
+                  <a href="http://www.eceiro.com/dghfzx.html">德国护肤哲学</a>
+                 </p>
+              </div>
+            </li>
+            <li class="lis">
+              <p class="fuMenu">探索医采</p>
+              <img class="xiala" src="http://www.eceiro.com/images/phone/open.png" />
+              <img class="xiala2" src="http://www.eceiro.com/images/phone/off.png"/>
+              <div class="div1">
+                <p class="zcd" id="zcd19">
+                  <a href="http://www.eceiro.com/ycsys.html">医采实验室</a>
+                </p>
+                <p class="zcd" id="zcd20">
+                  <a href="http://www.eceiro.com/ppln.html">品牌工厂</a>
+                </p>
+              </div>
+            </li>
+            <li class="lis">
+              <p class="fuMenu">品牌故事</p>
+              <img class="xiala" src="http://www.eceiro.com/images/phone/open.png" />
+              <img class="xiala2" src="http://www.eceiro.com/images/phone/off.png"/>
+              <div class="div1">
+                <p class="zcd" id="zcd1">
+                  <a href="http://www.eceiro.com/csrw.html">创始人物</a>
+                  <!-- <img class="xiala" src="http://www.eceiro.com/images/phone/open3.png" /> -->
+                </p>
+                <p class="zcd" id="zcd2">
+                  <a href="http://www.eceiro.com/ppln.html">品牌理念</a>
+                  <!-- <img class="xiala" src="http://www.eceiro.com/images/phone/open3.png" /> -->
+                </p>
+              </div>
+            </li>
+            <li class="lis">
+              <p class="fuMenu2">媒体报道</p>
+              <img class="xiala" src="http://www.eceiro.com/images/phone/open2.png" />
+              <img class="xiala2" src="http://www.eceiro.com/images/phone/off2.png"/>
+              <div class="div1">
+                <p class="zcd" id="zcd1">
+                  <!-- <a href="http://www.eceiro.com/xinwendongtai/index.html">品牌动态</a> -->
+                  <a href="http://www.eceiro.com/xinwendongtai/index.html">品牌动态</a>
+                </p>
+              </div>
+            </li>
+            <li class="lis">
+              <p class="fuMenu2">加入我们</p>
+              <img class="xiala" src="http://www.eceiro.com/images/phone/open2.png"/>
+              <img class="xiala2" src="http://www.eceiro.com/images/phone/off2.png"/>
+              <div class="div1">
+                <p class="zcd" id="zcd1">
+                  <a href="http://www.eceiro.com/pphz.html">品牌合作</a>
+                  <!-- <img class="xiala" src="http://www.eceiro.com/images/phone/open3.png" /> -->
+                </p>
+                <p class="zcd" id="zcd2">
+                  <a href="http://www.eceiro.com/jxcx.html">经销查询</a>
+                  <!-- <img class="xiala" src="http://www.eceiro.com/images/phone/open3.png" /> -->
+                </p>
+              </div>
+            </li>
+            <li class="lis">
+              <p class="fuMenu2">售后服务</p>
+              <img class="xiala" src="http://www.eceiro.com/images/phone/open2.png" />
+              <img class="xiala2" src="http://www.eceiro.com/images/phone/off2.png"/>
+              <div class="div1">
+                <p class="zcd" id="zcd1">
+                  <a href="http://www.eceiro.com/fwcx.html">防伪查询</a>
+                  <!-- <img class="xiala" src="http://www.eceiro.com/images/phone/open3.png" /> -->
+                </p>
+                <p class="zcd" id="zcd2">
+                  <a href="http://www.eceiro.com/khfw.html">客户服务</a>
+                  <!-- <img class="xiala" src="http://www.eceiro.com/images/phone/open3.png" /> -->
+                </p>
+              </div>
+            </li>
+            <li class="lis">
+              <p class="fuMenu2">关于我们</p>
+              <img class="xiala" src="http://www.eceiro.com/images/phone/open2.png" />
+              <img class="xiala2" src="http://www.eceiro.com/images/phone/off2.png"/>
+              <div class="div1">
+                <p class="zcd" id="zcd1">
+                  <a href="http://www.eceiro.com/jtjj.html">集团简介</a>
+                  <!-- <img class="xiala" src="http://www.eceiro.com/images/phone/open3.png" /> -->
+                </p>
+                <p class="zcd" id="zcd2">
+                  <a href="http://www.eceiro.com/jtwh.html">集团文化</a>
+                  <!-- <img class="xiala2" src="http://www.eceiro.com/images/phone/open3.png" /> -->
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 菜单-结束 -->
+    </div>
+          <!--dsahdlkjaskldaskldsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  -->
+        </div>
+        <img src="./images/phone/logo.png" class="p-logo" />
+        <!-- <img src="./images/phone/wxlogo.png" class="p-wxlogo" />
+        <img src="./images/phone/wblogo.png" class="p-wblogo" />
+        <img src="./images/phone/sousuo.png" class="sousuo" /> -->
+      </div>
+      <div class="p-banner">
+        <video id="videoPlay1" controls="controls"  loop="loop"  width="100%" src="./video/p-video.mp4" poster="/video/video.jpg"></video>
+        <!-- <video id="video" src="./video/p-video.mp4" autoplay="autoplay" width="100%" loop="loop" controls="controls" 
+            playsinline  webkit-playsinline></video> -->
+          <!--  <img src="./images/phone/banner.jpg" width="100%">
+            <img src="./images/phone/banner2.jpg" width="100%">
+            <img src="./images/phone/banner3.jpg" width="100%"> -->
+            <!-- <div class="example">
+              <div class="ft-carouselp" id="carouselpp">
+                <ul class="carousel-inner">
+                  <li class="carousel-item"><img src="./images/phone/banner.jpg" width="100%"></li>
+                  <li class="carousel-item"><img src="./images/phone/banner2.jpg" width="100%"></li>
+                  <li class="carousel-item"><img src="./images/phone/banner3.jpg" width="100%"></li>
+                </ul>
+              </div>
+            </div> -->
+      </div>
+        <script type="text/javascript">
+          var video1=document.getElementById("cideoPlay1");
+
+            video1.onclick=function(){
+                if(video1.paused){
+                    video1.play();
+                }else{
+                    video1.pause();
+                }
+            }
+          $(function() {
+            $('#carouselpp ul').carouFredSel({
+              prev: '#prevs',
+              next: '#nexts',
+              pagination: "#pager",
+              scroll: 1000
+            });
+          }); 
+        </script>
+    <div class="p-content2">
+      <div class="p-c2-top">
+        <a href="csrw.html" class="p-c2-a"><img src="./images/phone/c2-1.jpg" class="p-c2-1" /></a>
+        <a href="ppln.html"><img src="./images/phone/c2-2.jpg" class="p-c2-2" /></a>
+      </div>
+      <div class="p-c2-bottom">
+        <a href="ppln.html"><img src="./images/phone/c2-3.jpg" class="p-c2-3" /></a>
+      </div>
+    </div>
+    <div class="p-content3">
+      <div class="p-c3-top">
+        <div class="p-c3-bt">
+          <img src="./images/phone/zazx.png">
+        </div>
+      </div>
+      <div class="p-c3-bottom">
+        <div class="p-cpjs">
+          <img src="./images/phone/c2-2.png">
+          <p class="big-p">隔离▪防晒▪美白▪保湿</p >
+          <p class="small-p">水感清透防护喷雾</p >
+          <p class="money-p">￥138/盒</p >
+          <a href="jhpw.html">了解详情</a >
+        </div>
+        <div class="p-cpjs">
+          <img src="./images/phone/c2-3.png">
+          <p class="big-p">再现肌肤原生之美</p >
+          <p class="small-p">肌活自律循环套盒</p >
+          <p class="money-p">￥368/盒</p >
+          <a href="jhth.html">了解详情</a >
+        </div>
+        <div class="p-cpjs">
+          <img src="./images/phone/c2-1.png">
+          <p class="big-p">轻松妆  出少女肌</p >
+          <p class="small-p">瓷妆无瑕气垫BB霜</p >
+          <p class="money-p">￥158/盒</p >
+          <a href="wxqdbbs.html">了解详情</a >
+        </div>
+      </div>
+      <div class="p-content4">
+        <div class="p-c4-top">
+          <div class="p-c4-bt">
+            <img src="./images/phone/rxcp.png">
+          </div>
+        </div>
+        <div class="p-c4-bottom">
+          <!-- <div>
+            <img src="./images/c3_02.jpg">
+            <img src="./images/c3_03.jpg" class="p-c4-img">
+            <img src="./images/c3_01.jpg">
+            <img src="./images/c3_04.jpg" class="p-c4-img">
+          </div> -->
+          <div id="p-wrapper">
+            <div id="p-carousel">
+            <!--               <li><a href=""><img src="images/62fc94adedf8598c807e94470634ad1d.png" alt=""></a></li>
+                          <li><a href=""><img src="images/08427be4e6240e84c6a659d245f76b4c.png" alt=""></a></li>
+                          <li><a href=""><img src="images/5721391921c7126f997c12b2f58b4d39.png" alt=""></a></li>
+                          <li><a href=""><img src="images/9299fb47528488d809d956788665ba4e.png" alt=""></a></li>
+                          <li><a href=""><img src="images/61b0d1e24392b82242d2768c8ff282f2.png" alt=""></a></li>
+                          <li><a href=""><img src="images/e4857e9760f5982ce7279910c36b8e31.png" alt=""></a></li>
+                          <li><a href=""><img src="images/abaf8947629377e9034f80a3cac30799.png" alt=""></a></li>
+                          <li><a href=""><img src="images/196e7504a7760f0db90d9cd6cfe0d6cd.png" alt=""></a></li>
+                          <li><a href=""><img src="images/34e2bc2d598dea089515940ad2b8a8ce.png" alt=""></a></li>
+                          <li><a href=""><img src="images/fbfca8904af2faeff7fd90e1ffe3de2b.png" alt=""></a></li>
+                          <li><a href=""><img src="images/7a9d6e612785124691b32e61259aa70e.png" alt=""></a></li>
+                          <li><a href=""><img src="images/b1d11eb0329d3ca774d55a7ef3bc89ed.png" alt=""></a></li>
+                          <li><a href=""><img src="images/d44c2b0f3a5cbd512feeac2d0b1b2801.png" alt=""></a></li>
+                          <li><a href=""><img src="images/c471b3e9a3e7aa6aa42416278b22a9c4.png" alt=""></a></li>
+                          <li><a href=""><img src="images/943169435ca33eba185d41ee8ba0e533.png" alt=""></a></li>
+                          <li><a href=""><img src="images/a2a2f4d801c355222cb849eabae26737.png" alt=""></a></li>
+                          <li><a href=""><img src="images/215d5c20fbd4c8ae4a55bf64ddb1b879.png" alt=""></a></li>
+                          <li><a href=""><img src="images/3dbcd2dfc327b32706a8b1b154e37358.png" alt="医采多肽修护日夜眼精华"></a></li>
+                          <li><a href=""><img src="images/015f94e8411febfee618adf5f870e957.png" alt=""></a></li>
+             -->
+              <ul>
+                <li>
+                  <a href="http://www.eceiro.com/knsgz.html"><img src="./images/c3_21.png"></a>
+                  <a href="http://www.eceiro.com/mcsgz.html"><img src="./images/c3_22.png" class="p-c4-img"></a>
+                </li>
+                <li>
+                  <a href="http://www.eceiro.com/jhjmr.html"><img src="./images/c3_01.png"></a>
+                  <a href="http://www.eceiro.com/jhjks.html"><img src="./images/c3_02.png" class="p-c4-img"></a>
+                </li>
+                <li>  
+                  <a href="http://www.eceiro.com/jhxfr.html"><img src="./images/c3_03.png"></a>
+                  <a href="http://www.eceiro.com/jhzys.html"><img src="./images/c3_04.png" class="p-c4-img"></a>
+                </li>
+                <li>
+                  <a href="http://www.eceiro.com/sghfth.html"><img src="./images/c3_05.png"></a>
+                  <a href="http://www.eceiro.com/mjxhcsmm.html"><img src="./images/c3_06.png" class="p-c4-img"></a>
+                </li>
+                <li>  
+                  <a href="http://www.eceiro.com/jhstr.html"><img src="./images/c3_07.png"></a>
+                  <a href="http://www.eceiro.com/rhhfm.html"><img src="./images/c3_08.png" class="p-c4-img"></a>
+                </li>
+                <li>  
+                 <!--  <a href="http://www.eceiro.com/fsxhtz.html"><img src="./images/c3_09.png"></a> -->
+                 <a href="http://www.eceiro.com/lgycsm.html"><img src="./images/c3_19.png"></a>
+                  <a href="http://www.eceiro.com/swxwqcmm.html"><img src="./images/c3_10.png" class="p-c4-img"></a>
+                </li>
+                <li>  
+                  <a href="http://www.eceiro.com/qcdgy.html"><img src="./images/c3_11.png"></a>
+                  <a href="http://www.eceiro.com/xfsgmx.html"><img src="./images/c3_12.png" class="p-c4-img"></a>
+                </li>
+                <li>  
+                  <a href="http://www.eceiro.com/xhsjs.html"><img src="./images/c3_13.png"></a>
+                  <a href="http://www.eceiro.com/xhsgr.html"><img src="./images/c3_14.png" class="p-c4-img"></a>
+                </li>
+                <li>  
+                  <a href="http://www.eceiro.com/jyjmr.html"><img src="./images/c3_15.png"></a>
+                  <a href="http://www.eceiro.com/ryyjh.html"><img src="./images/c3_16.png" class="p-c4-img"></a>
+                </li>
+                <li>  
+                  <a href="http://www.eceiro.com/shbspw.html"><img src="./images/c3_17.png"></a>
+                  <a href="http://www.eceiro.com/pdlczmh.html"><img src="./images/c3_18.png" class="p-c4-img"></a>
+                </li>
+                <!-- <li>  
+                  <a href="http://www.eceiro.com/lgycsm.html"><img src="./images/c3_19.png"></a>
+                  <a href="http://www.eceiro.com/ljhcmr.html"><img src="./images/c3_20.png" class="p-c4-img"></a>
+                </li> -->
+              </ul>
+              <div class="clearfix"></div>
+              <!-- <a id="prev" class="prev" href="#"><img src="./images/left.png"></a>
+              <a id="next" class="next" href="#"><img src="./images/right.png"></a> -->
+              <!-- <div id="pager" class="pager"></div> -->
+            </div>
+          </div>
+        </div>  
+        <script type="text/javascript">
+          $(function() {
+          $('#p-carousel ul').carouFredSel({
+          prev: '#prevs',
+          next: '#nexts',
+          pagination: "#pager",
+          scroll: 1000
+            });
+          }); 
+        </script>
+      </div>
+      <div class="p-content5">
+        <div class="p-c5-top">
+          <div class="p-c5-video">
+            <iframe frameborder="0" width="100%" height="225px"  src="https://v.qq.com/iframe/player.html?vid=p0695up3ps8&tiny=0&auto=0" allowfullscreen controls="controls" poster="./images/phone/video.jpg" playsinline  webkit-playsinline></iframe>
+            <!-- poster="./images/phone/video.jpg"  -->
+            <!-- <video controls="controls"  poster="./images/phone/video.jpg"></video> -->
+          </div>
+        </div>
+        <div class="p-c5-bottom">
+          <b>医采(中国)品牌形象广告片——依靠自己活出采</b>
+          <p>近日,黄圣依特地在繁忙的档期当中抽出时间来到广州,正式参加与医采的签约仪式,并拍摄医采全新广告片...</p>
+          <a href="xinwendongtai/index.html">了解更多</a>
+        </div>
+      </div>
+      <div class="p-content6">
+        <div class="p-c6-top">
+          <hr>
+          <div class="p-c6-bt">
+            <img src="./images/phone/bztj.png">
+          </div>
+        </div>
+        <div id="carouselss">
+          <ul>
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="/d/file/p/2018/11-15/b3a0a3130a7fdc0a7ade265ba84e9a4a.jpg">
+                    <!-- <img src="/d/file/p/2018/11-15/179a1ebaf846fadee96c3642b382a871.jpg" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p>000 </p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">付喜荣</p>
+                    <p class="c6sbfh">卓越联盟创始人      越战越勇 冠军</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">80后宝妈付喜荣，从事微商2年，而加入医采短短两月就成为了百万官方合伙人，这当然离不开她的机智与能干，也进一步验证了跟对好品牌的重要性。雨菲多次上榜越战越勇，这次更是奋勇前进冲入第一名，成为所有人的榜样！</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="/d/file/p/2018/11-15/8d201de37a36581c445e7019ca5a3c0b.jpg">
+                    <!-- <img src="/d/file/p/2018/11-15/10a269f062cd6d43810c9752ab1dae62.jpg" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p>00</p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">孙荣霞</p>
+                    <p class="c6sbfh">群英国际创始人  越战越勇 亚军</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">来自内蒙古的单亲妈妈孙荣霞，更多人亲切的称她为沐夕，加入医采短短几个月便突出重围成为群英国际创始人，医采百万官方，从负债累累到名富双收，有能力给到孩子更好的生活！沐夕用她的不懈努力再登越战越勇第2名！</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="/d/file/p/2018/11-15/0c7e88d531724f59ec1b812d6e9ac637.jpg">
+                    <!-- <img src="/d/file/p/2018/11-15/39ab5895eeacdc1a6a13cb5ab30a15dd.png" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">陈雅茹</p>
+                    <p class="c6sbfh">战狼天团创始人   越战越勇 季军</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">战狼天团创始人   越战越勇 季军</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="/d/file/p/2018/11-15/0aefa5f862a99be20463e2cf3fb37103.jpg">
+                    <!-- <img src="/d/file/p/2018/11-15/378667ca89907da7ec6eeb2d99c35f0f.png" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">邢瑶</p>
+                    <p class="c6sbfh">黑马天团百万官方    越战越勇 五强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">谁说女子不如男？作为女性，你刚强、自信、坚韧不拔，稳居越战越勇前五！作为黑马天团的掌舵者，你竭心尽力，全力而为，帮助团队实现财富增值！一步一个脚印用实力向所有人证明了自己和团队的实力!</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="/d/file/p/2018/11-15/d89166d61b256ce7312801f27307e405.jpg">
+                    <!-- <img src="/d/file/p/2018/11-15/979afed2a9d082c59a7944b8a80e50ac.png" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">胡思思</p>
+                    <p class="c6sbfh">飞越联盟百万官方    越战越勇 五强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">90后宝妈胡思思，见识到医采网红打造的实力，毅然决定转让自家餐饮店，带领老公全职干医采，如今已是飞越联盟创始人、网红军团专家，坐拥几十万粉丝，努力没有辜负于她，奋勇前进冲入越战越勇第5名！</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="/d/file/p/2018/11-15/c6242dfe28eed731d9012abd9c6a9699.jpg">
+                    <!-- <img src="/d/file/p/2018/11-15/79672c84302aab374160546408b3518b.png" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">丁晓楠</p>
+                    <p class="c6sbfh">展梦国际百万官方    越战越勇 十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">展梦国际创始人丁晓楠，大家亲切的称她为雪糕，年度盛典作为医采百万官方合伙人优秀代表受到央视水均益老师的采访，频获赞赏，同时她还是网红打造执行董事、坐拥百万网红粉丝，多次上榜越战越勇，斩获本月第6名。</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="/d/file/p/2018/11-15/76bbcf42985caa2eb0e53f8a9604f48b.jpg">
+                    <!-- <img src="/d/file/p/2018/11-15/c0ac7220b67a59b07c811a40cc831d0e.png" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">李妍彦</p>
+                    <p class="c6sbfh">卓越联盟创始人    越战越勇 十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">李妍彦，一个从山村出来的小姑娘，2015年年初开始接触医采，然后就开始了自己的逆袭人生，带领无数人有志青年创业成功，现在的她是医采卓越联盟创始人、网红打造理事、资源整合平台讲师，实力斩获本月第7名。</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="/d/file/p/2018/11-15/cfa97d2b6d0daf11c9e0a7e935501d31.jpg">
+                    <!-- <img src="/d/file/p/2018/11-15/f123d0a699b6139dfa7464758a93de89.jpg" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">撒正花</p>
+                    <p class="c6sbfh">卓越联盟创始人    越战越勇 十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">小撒是一名80后宝妈，在没有遇到医采之前是个体户，她具有敏锐洞察力、决策果断，看准医采品牌市场的巨大力量后果断转型医采代理，全心做医采！带领来自五湖四海的姐妹们实现名富双收，凭借实力冲入本月越战越勇10强。</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="/d/file/p/2018/11-15/4e02570bd452314f4a1acb538c43d6dc.jpg">
+                    <!-- <img src="/d/file/p/2018/11-15/92f63422578c881477b6c51bbab42b0d.png" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">黄雨平</p>
+                    <p class="c6sbfh">飞越联盟创始人    越战越勇 十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">全职宝妈黄雨平，厌倦了放低姿态与老公拿钱的日子，转身遇见医采逆袭大咖，从一个只知道烧菜做饭的全职宝妈逆袭带领上万人团队的老大，从伸手要钱，到如今实现财富自由并带领团队都赚到了钱，斩获本月第9名。</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="/d/file/p/2018/11-15/0e49757360c7805e7d659546fc23385a.jpg">
+                    <!-- <img src="/d/file/p/2018/11-15/7550d46a4754f4e71718b517def89356.jpg" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">李雪</p>
+                    <p class="c6sbfh">梦想联盟创始人    越战越勇 十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">80后宝妈李雪，从一个摆地摊卖面筋到医采梦想联盟创始人，从孤身一人到拥有三万人团队，一路培养了许多优秀的官方合伙人，也是上榜越战越勇次数最多的医采风云人物，成为很多人的楷模！</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="/d/file/p/2018/11-15/2b0919907604d978a3d85ba8a37f3267.jpg">
+                    <!-- <img src="/d/file/p/2018/11-15/d719b904acd1c4b9e9a7fab006d2a74b.jpg" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">罗栩</p>
+                    <p class="c6sbfh">飞越联盟创始人 越战越勇 二十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">罗栩，不羁的80后，不愿随波逐流做稳定小白领，而是毅然的选择追随医采,走上创业的道路，从默默无闻的小白领摇身一变成为飞越联盟创建人，培育了很多优秀官方合伙人，多次上榜越战越勇，是医采代理界知名人士。</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="images/9a8a927a1e17661778c5c6a7ee0ebfd1.jpg">
+                    <!-- <img src="images/6bbcf74da6699d16790bd3998b58f1dc.jpg" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">王凤 </p>
+                    <p class="c6sbfh">战狼天团百万官方 越战越勇 二十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">在做医采之前王凤是一名打工妹，后来辞掉了工作决心做医采，在公司的扶持以及她自己的努力下很快就做了医采百万官方。现在，她带领着万人团队再创佳绩，誓要让更多的人在医采逆袭自己的人生！</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="images/7af4b7d66aed879a913ccf9e1aed3d7b.jpg">
+                    <!-- <img src="" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">唐雁</p>
+                    <p class="c6sbfh">星空联盟创始人 越战越勇 二十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">来自烟台农村的80后唐雁，在外打工数载没有成绩，加入医采参与网红打造短短几个月便升入百万官方，创建了星空联盟团队。从最初单打独斗走到今天拥有的上万人团队，唐雁最感谢的就是当初把握了医采这个机遇！</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="images/dcdaa8654ef269be7171708bd1a6a0cf.jpg">
+                    <!-- <img src="" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">刘程程</p>
+                    <p class="c6sbfh">众星国际创始人 越战越勇 二十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">85后刘程程，2015年看准商机义无反顾加入了医采，“没有不成功的事业，只有不努力的自己”是她的人生格言。医采和她的努力没有辜负于她，从开始的打工小妹，逆袭成为众星国际创始人，带领团队赚的盆满钵满！</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="images/162b3f4f13b6d8307f45d16fc3e91c5a.jpg">
+                    <!-- <img src="" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">杨慧慧</p>
+                    <p class="c6sbfh">战狼天团创始人 越战越勇 二十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">杨慧慧之前在北京开实体店，在雅茹大大的推荐下她加入了医采。通过努力现在杨慧慧是医采公司网红，百万官方，手下的团队人数也越来越多。收获了自己的豪车和房子，这次更是上榜越战越勇二十强！</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="images/2fd81af1812654c6a451da3d48503d14.jpg">
+                    <!-- <img src="" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">胡晓静</p>
+                    <p class="c6sbfh">飞越联盟创始人 越战越勇 二十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">胡晓静是一位全职宝妈，带小孩的同时想做点兼职补贴家用，在朋友的介绍下加入了医采。 一步步从小代理到医采百万官方，豪车、别墅都有了，也有了自己的团队和代理商们，现在她不仅收获了金钱自由，人生自由，同时也活出了自己的价值！</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="images/8a5434c4e6d999da413b9516f9ceb322.jpg">
+                    <!-- <img src="" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">彭美清</p>
+                    <p class="c6sbfh">天使联盟创始人 越战越勇 二十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">80后彭美清曾毅然放弃淘宝事业，加入医采创业，短短一年多时间，成为天使联盟的创始人，坐拥3万人的庞大团队。从一个买东西要看价格的女人，华丽转身成身价千万的白富美，这次更是带领天使联盟斩获20强。</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="images/b92e51c890527cb0040add17dc34cff8.jpg">
+                    <!-- <img src="" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">李小宛</p>
+                    <p class="c6sbfh">奇迹联盟创始人 越战越勇 二十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">李小宛在加入医采前是传媒公司的老板，手底下五六十人，自己还开直播，是个小网红。加入医采之后，她更是成功了，直播坐拥百万粉丝，成为高级销货网红，管理着万人团队，是医采让她的人生更加精彩辉煌！</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="images/228f5e554bad4c78a6bcdc02f0a1f5cc.jpg">
+                    <!-- <img src="" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">康瑞杰</p>
+                    <p class="c6sbfh">卓越联盟创始人 越战越勇 二十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">康瑞杰看好医采不顾家人反对加入了医采，大半年的时间从一个微商小白到逆袭成为百万官方，家人亲戚也从以前的不支持，到现在的刮目相看。不仅收获了财富，她更在医采证明了自己的价值！</p> -->
+                  </div>
+                </div>  
+              </li> 
+                          <li>
+                <div class="p-c6-bottom">
+                  <div class="p-c6-img">
+                    <img src="images/3447012d6606ab6e163690db16e7aa89.jpg">
+                    <!-- <img src="" class="p-c6-img2"> -->
+                  </div>
+                  <div class="c6-b-bt">
+                    <!-- <p></p>
+                    <div class="c6-k"></div> -->
+                    <img src="./images/phone/quan.png">
+                  </div>
+                  <div class="c6-b-js">
+                    <hr class="jshr1">
+                    <p class="c6name">马针</p>
+                    <p class="c6sbfh">汇金国际百万官方 越战越勇 二十强</p>
+                    <hr class="jshr2">
+                    <!-- <p class="c6sbjs">马姐，从一个100块钱的化妆品都用不起的农村妈妈，逆袭成为网络红人，坐拥30多万粉丝，更在短短的时间内创立了汇金国际。如今的她，月销量突破上百万，团队成员不断攀升，在当地名声大振，成为名副其实的创业女王。</p> -->
+                  </div>
+                </div>  
+              </li> 
+                      </ul> 
+            <a id="prevss" href="#"><img src="./images/phone/prev.png"></a>
+            <a id="nextss" href="#"><img src="./images/phone/next.png"></a>
+        </div>      
+      </div>
+      <div class="p-content7">
+        <div class="p-c7-top">
+          <div class="p-c7-bt">
+            <img src="./images/phone/ppdt.png">
+          </div>
+        </div>
+        <div class="p-c7-bottom">
+                      <a href="http://ln.qq.com/a/20190102/007251.htm" rel="nofollow">
+            <div class="p-c7-news">
+              <div class="news-img">
+                <img src="/d/file/p/2019/01-02/2a465b01691d6188fd4104898920cd38.jpg">
+              </div>
+              <div class="news-js">
+                <p class="news-bt">万人齐聚南京开启2018医采（中国）品牌年度盛典</p>
+                <!-- <p class="news-time">TIME:2018/04/06  丨  read:982</p> -->
+                <hr>
+                <p class="news-jj">12月28日，一场以“星飞越·耀非凡”为主题2018医采（中国）品牌全球领袖年度盛会&颁奖典礼在南京国际博览中心璀璨举行。</p>
+              </div>
+            </div>
+            </a>
+                      <a href="http://js.ifeng.com/a/20190110/7155290_0.shtml" rel="nofollow">
+            <div class="p-c7-news">
+              <div class="news-img">
+                <img src="/d/file/p/2019/01-10/fe1cbf6de716da66e8aa0c0fd128ff2e.jpg">
+              </div>
+              <div class="news-js">
+                <p class="news-bt">医采(中国)品牌第11站·股东专享之畅游迪拜</p>
+                <!-- <p class="news-time">TIME:2018-05-13  丨  read:9999</p> -->
+                <hr>
+                <p class="news-jj">2019年1月6日—10日，新年之初，医采（中国）品牌的全球股东们迎来了为期5天4夜的第十一次环球之旅，而这次的目</p>
+              </div>
+            </div>
+            </a>
+                      <a href="http://hebei.sina.com.cn/edu/zh/2018-12-14/detail-ihqackac7905476.shtml" rel="nofollow">
+            <div class="p-c7-news">
+              <div class="news-img">
+                <img src="/d/file/p/2018/12-21/eaab2fc2680b0498c08986761bafe9fa.jpg">
+              </div>
+              <div class="news-js">
+                <p class="news-bt">医采公益行，再访山东港湾学校，让爱持续</p>
+                <!-- <p class="news-time">TIME:2018-01-31  丨  read:1564</p> -->
+                <hr>
+                <p class="news-jj">　　2018年12月9日，时隔一年医采公益人满载着爱再次回到了这里，来履行当初对孩子们的那份承诺：“你们要积极乐观的面对生</p>
+              </div>
+            </div>
+            </a>
+                    <div class="ljgd">
+            <a href="http://www.eceiro.com/xinwendongtai/index.html">了解更多资讯</a>
+          </div>
+        </div>  
+        <div class="p-foot">
+          <div class="p-f-nav">
+            <a href="http://www.eceiro.com/pphz.html">品牌合作</a>
+            <a href="###" class="p-f-a2">服务条款</a>
+            <a href="http://www.eceiro.com/jtjj.html">集团简介</a>
+            <a href="###" class="p-f-a2">官方微信</a>
+            <a href="###">免责隐私权保护</a>
+            <a href="https://weibo.com/p/1006065062440955/home?from=page_100606&mod=TAB&is_hot=1#place" class="p-f-a2"  rel="nofollow">官方微博</a>
+          </div>
+          <div class="rxdh">
+            <p>全国免费咨询客户服务热线:400-012-8989</p>
+            <p>COPYRIGHT(C)  2019广州优研生物科技（集团）有限公司</p>
+            <p class="p-bah">粤ICP备16028853号-2</p>
+            <div style="display: none">
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </body>
+  
+</html>
