@@ -1,0 +1,412 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family:"Microsoft YaHei"
+}
+ul,li,a{
+	list-style: none;
+	text-decoration: none;
+	float: left;
+	color: #4c4c4c;
+}
+img{
+	margin:0;
+	padding:0;
+}
+.container{
+	position: relative;
+}
+#header{
+	position: fixed;
+	width: 100%;
+	height: 150px;
+	background: #fff;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.top{
+	height: 40px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.t-left a{
+	position: absolute;
+	color: #bebebe;
+	left: 18.75%;
+	line-height: 40px;
+}
+.t-left p{
+	font-size: 12px;
+}
+.t-right{
+	position: absolute;
+	width: 500px;
+	right: 10.75%;
+}
+.wxlogo,.xllogo,.sslogo{
+	width: 100px;
+	float: left;
+	line-height: 40px;
+	padding-left: 30px;
+}
+.wxlogo img,.xllogo img,.sslogo img{
+	float: left;
+	padding: 10px;
+}
+.wxlogo p,.xllogo p,.sslogo p{
+	font-size: 14px;
+	color: #b2b2b2;
+}
+.column{
+	width: 100%;
+	height: 109px;
+}
+.logo{
+	position: absolute;
+	left: 12.75%;
+	margin-top: 20px;
+}
+.nav{
+	position: absolute;
+	width: 48%;
+	right: 19%;
+	line-height: 109px;
+	z-index: 100000;
+}
+.nav ul li{
+	border-top: 1px solid rgba(255,255,255,.8);
+}
+.nav a{
+	font-size: 16px;
+	width: 100px;
+	text-align: center;
+}
+.nav ul li:hover{
+	background: #3f3939;
+}
+.nav ul li:hover a{
+	color: #fff;
+}
+.nav ul li ul{
+	visibility:hidden;
+	float: none;
+	position: absolute;
+	background: #858180;
+	top: 109px;
+	opacity: .8;
+}
+.nav ul li:hover ul{
+	visibility:visible;
+}
+.nav ul li:hover .e1 ul{
+	visibility:hidden;
+}
+.nav ul li:hover .e2 ul{
+	visibility:hidden;
+}
+.nav ul li:hover .e3 ul{
+	visibility:hidden;
+}
+.e_nav a{
+	color: #fff;
+	font-size: 14px;
+}
+.e_nav li{
+	float: none;
+	height: 50px;
+	width: 100px;
+	background: #858180;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+}
+.e_nav li:hover{
+	background: #3f3939;
+}
+.e_nav li{
+	position: relative;
+}
+.e1 ul li{
+	visibility:hidden;
+}
+.e2 ul li{
+	visibility:hidden;
+}
+.e1 ul li a,.e1 ul li,.e1 ul,.e2 ul li a,.e2 ul li,.e2 ul,.e3 ul li a,.e3 ul li,.e3 ul{
+	width: 180px;
+}
+.e1:hover ul li{
+	visibility:visible;
+}
+.e2:hover ul li{
+	visibility:visible;
+}
+.e3:hover ul li{
+	visibility:visible;
+}
+.e1 ul{
+	position: absolute;
+	top: 0px !important;
+	left: 101px;
+}
+.e2 ul{
+	position: absolute;
+	top: 0px !important;
+	left: 101px;
+}
+.e3 ul{
+	position: absolute;
+	top: 0px !important;
+	left: 101px;
+}
+.e2{
+	position: relative;
+}
+.e2 ul li ul{
+	display: none;
+	position: absolute;
+	left: 181px;
+	top: 0;
+}
+.e2 ul li ul{
+	display: none;
+	position: absolute;
+	left: 181px;
+	top: 0;
+}
+.hfhz:hover.hfhz ul{
+	display: block;
+}
+.ycewm{
+	position: absolute;
+	left: 5px;
+	top: -30px;
+	transition:4s;
+	display: none;
+}
+.wxlogo:hover .ycewm{
+	top: 35px;
+	display:block;
+	z-index: 9999999999;
+}
+.banner img{
+	margin-top: 150px;
+	width: 100%;
+}
+#footer{
+	width: 100%;
+	padding-top: 72px;
+	z-index: 100;
+	background: #fafafa;
+	height: 260px;
+}
+.f-top{
+	width: 1200px;
+	margin:0 auto;
+	margin-bottom: 60px;
+}
+.f-nav li{
+	border-right:1px solid #808080; 
+	width: 70px;
+	color: #808080;
+	font-size: 15px;
+	padding-left: 10px;
+	position: relative;
+}
+.f-nav a{
+	color: #808080;
+}
+.f-number p{
+	overflow: hidden;
+	color: #808080;
+	font-size: 15px;
+	float: left;
+
+}
+.f-bottom{
+	position: relative;
+	margin-top: 20px;
+}
+.f-bottom p{
+	text-align: center;
+	margin-top: 5px;
+	font-size: 15px;
+	line-height: 30px;
+	color: #808080;
+}
+.dbwx{
+	position: absolute;
+	left: -30px;
+	top: 30px;
+	transition:4s;
+	display: none;
+}
+.jglogo:hover .dbwx{
+	bottom: 150px;
+	display:block;
+	z-index: 9999999999;
+}
+.bah{
+	width: 200px;
+	float: none;
+	color: #808080;
+}
+.f-bottom img{
+	position: absolute;
+	right: 400px;
+}
+.pc-head{
+	display: block;
+}
+.p-head{
+	display: none;
+}
+/*浜у搧椤电殑鏍峰紡*/
+.wldcp{
+	margin-top: 50px;
+}
+/*sdassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssghjdsaaaaaaaaaaaaaaaaaaa*/
+
+
+@media screen and (max-width: 1680px) {
+	.nav{
+		right: 10%;
+		width: 55%;
+	}
+	#footer{
+	position: relative;
+	overflow: hidden;
+	z-index: 100;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: -15px;
+	}
+}
+@media screen and (max-width: 1600px) {
+	.t-left a,.logo{
+		left: 7.75%;
+	}
+	.nav{
+		right: 4%;
+		width: 68%;
+	}				
+}
+@media screen and (max-width: 1440px) {
+	#footer{
+	position: relative;
+	overflow: hidden;
+	z-index: 100;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -15px;
+	}
+	.logo{
+		left: 4.75%;
+	}
+}
+@media screen and (max-width: 1366px){
+		#footer{
+			position: relative;
+			overflow: hidden;
+			z-index: 100;
+			width: 90%;
+			margin-left: 5%;
+			}
+		.f-top{
+			float: none;
+			text-align: center;
+			padding-top: -150px;
+		}
+		.logo{
+			left: 2%;
+		}
+		.f-number,.f-bottom{
+			display: block;
+		}
+}
+@media screen and (max-width: 1340px) {
+		.nav{
+		right: 4%;
+		width: 75%;
+	}
+}
+#p-foot{
+	display: none;
+}
+@media screen and (max-width: 414px) {
+	.pc-head,.banner,.top-nav,.pc-hr{
+	display: none;
+	}
+	.p-head,#p-foot{
+		display: block;
+	}
+	.p-head{
+		position: fixed;
+		z-index: 1000000000000;
+		top: 0;
+		background: #000;
+		width: 100%;
+		height: 65px;
+	}
+	.navlogo,.p-h-right{
+		float: left;
+	}
+	.navlogo{
+		width: 19px;
+		height: 16px;
+		margin: 20px 20px;
+	}
+	.p-h-right p{
+		font-size: 15px;
+		text-align: center;
+		color: #fff;
+		line-height: 65px;
+		margin-left: 120px;
+	}
+	#footer{
+		display: none;
+	}
+	.leftMenu{
+    margin-left: -20px !important;
+	}
+	.p-foot{
+		background: #000;
+	}
+	.p-f-nav{
+		overflow: hidden;
+		width: 263px;
+		margin:0 auto;
+		padding-top: 40px;
+	}
+	.p-f-nav a{
+		font-size: 11px;
+		width: 90px;
+		color: #fff;
+		padding-right: 120px;
+		padding-bottom: 20px;
+	}
+	.p-f-a2{
+		width: 50px !important;
+		padding-right: 0 !important;
+	}
+	.rxdh{
+		margin-top: 40px;
+	}
+	.rxdh p{
+		text-align: center;
+		font-size: 10px;
+		color: #fff;
+		padding-bottom: 11px;
+	}
+	.p-bah{
+		padding-bottom: 37px !important;
+	}
+}
+@media screen and (max-width: 375px) {
+	.p-h-right p{
+		margin-left: 100px;
+	}
+}
+

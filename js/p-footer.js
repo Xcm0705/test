@@ -1,0 +1,15 @@
+document.writeln("<div class=\"p-foot\">");
+document.writeln("					<div class=\"p-f-nav\">");
+document.writeln("						<a href=\"http://www.eceiro.com/pphz.html\">品牌合作</a>");
+document.writeln("						<a href=\"###\" class=\"p-f-a2\">服务条款</a>");
+document.writeln("						<a href=\"http://www.eceiro.com/jtjj.html\">集团简介</a>");
+document.writeln("						<a href=\"###\" class=\"p-f-a2\">官方微信</a>");
+document.writeln("						<a href=\"###\">免责隐私权保护</a>");
+document.writeln("						<a href=\"https://weibo.com/p/1006065062440955/home?from=page_100606&mod=TAB&is_hot=1#place\" class=\"p-f-a2\">官方微博</a>");
+document.writeln("					</div>");
+document.writeln("					<div class=\"rxdh\">");
+document.writeln("						<p>全国免费咨询客户服务热线:400-012-8989</p>");
+document.writeln("						<p>COPYRIGHT(C)  2019广州优研生物科技（集团）有限公司</p>");
+document.writeln("						<p class=\"p-bah\">粤ICP备11004130号</p>");
+document.writeln("					</div>");
+document.writeln("				</div>");

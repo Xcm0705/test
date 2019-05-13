@@ -1,0 +1,114 @@
+.mxcp-bt,.ljdx,.p-cp{
+	display: none;
+}
+@media screen and (max-width: 414px) {
+	.mxcp-bt,.ljdx,.p-cp{
+	display: block;
+	}
+	.pc-head,.pc-hr,.en,.c1-hr1,.lsj,.fx,.c1-bottom,.cp-img{
+		display: none;
+	}
+	.content1,.content2{
+		width: 100%;
+	}
+	.mxcp-bt{
+		width: 335px;
+		margin:0 auto;
+		top: 25px;
+		text-align: center;
+		position: relative;
+	}
+	.mxcp-bt a{
+		position: absolute;
+		width: 8px;
+		height:15px;
+	}
+	.bt-left{
+		left: 0;
+	}
+	.bt-right{
+		top: 0;
+		right: 0;
+	}
+	.bt-right img,.bt-left img{
+		width: 8px;
+		height: 15px;
+	}
+	.bt-en{
+		font-size: 10px;
+		color: #292929;
+	}
+	.bt-ch{
+		font-size: 10px;
+		color: #999;
+	}
+	.c1-left{
+		width: 176px;
+		margin:109px auto 10px;
+		float: none;
+		height:auto;
+	}
+	.c1-left img{
+		width: 100%;
+		margin:0;
+		margin-bottom: 80px;
+	}
+	.c1-right{
+		position: relative;
+		width: 336px;
+		margin:0 auto;
+		float: none;
+	}
+	.ch{
+		font-size: 18px;
+	}
+	.c1-hr2{
+		width: 336px;
+		margin:15px 0;
+	}
+	.ch2{
+		font-size: 15px;
+		line-height: 16px;
+	}
+	.jg{
+		position: absolute;
+		font-size: 13px;
+		top: 60px;
+		right: 0px;
+	}
+	.ljdx{
+		width: 336px;
+		margin:0 auto;
+		margin-bottom:100px;
+	}
+	.ljdx img{
+		width: 24px;
+		height: 24px;
+		float: left;
+		padding-right: 15px;
+	}
+	.c2-top a{
+		margin:0 auto;
+		width: 84px;
+		height: 24px;
+		line-height: 24px;
+		font-size: 13px;
+		background: #000;
+		display: block;
+		float: none;
+	}
+	.c2-top hr{
+		height: 2px;
+		border-style: none;
+		background: #000;
+	}
+	.c2-bottom{
+		width: 100%;
+		background: none;
+		margin:25px 0; 
+		height: auto;
+	}
+	.c2-bottom img{
+		width: 100%;
+	}
+}
